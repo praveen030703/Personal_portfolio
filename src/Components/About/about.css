@@ -30,7 +30,7 @@
 }
 
 .about-section img {
-  width: 305px;
+  width: 80%;
 
   border-radius: 20px;
 }
@@ -81,4 +81,34 @@
 .about-skill:hover {
   transform: scale(1.05);
   transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  .about {
+    gap: 50px;
+    margin: 50px 70px;
+    align-items: start;
+  }
+
+  .about-title h1 {
+    font-size: 50px;
+    padding: 0;
+  }
+
+  .about-title img {
+    width: 130px;
+  }
+
+  .about-section {
+    flex-direction: column;
+  }
+
+  .about-left {
+    display: none;
+  }
+
+  .about-para {
+    font-size: 18px;
+    line-height: 32px;
+  }
 }
