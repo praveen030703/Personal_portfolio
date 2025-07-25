@@ -3,6 +3,7 @@ import "./mywork.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
 import mywork_data from "../../assets/mywork_data";
 import arrow_icon from "../../assets/arrow_icon.svg";
+
 const mywork = () => {
   return (
     <div className="mywork" id="work">
@@ -13,7 +14,9 @@ const mywork = () => {
       <div className="mywork-container">
         {mywork_data.map((work, index) => (
           <div className="mywork-item" key={index}>
-            <img src={work.w_img} alt={`work-${index}`} />
+            <a className="anchor-link" offset={50} href={work.w_link}>
+              <img src={work.w_img} alt={`work-${index}`} />
+            </a>
             {/* <p className="mywork-caption">{work.w_name}</p> */}
           </div>
         ))}
