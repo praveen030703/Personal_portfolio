@@ -17,7 +17,22 @@ const hero = () => {
             Connect with me
           </AnchorLink>
         </div>
-        <div className="hero-resume">My resume</div>
+        <a
+          href="/Praveen_Resume_R.pdf"
+          download="Praveen_Resume.pdf"
+          className="anchor-link"
+        >
+          <div className="hero-resume">My resume</div>
+        </a>
+        <div className="hero-connect">
+          <a
+            className="anchor-link"
+            offset={50}
+            href="https://github.com/praveen030703/"
+          >
+            Github
+          </a>
+        </div>
       </div>
     </div>
   );

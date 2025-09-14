@@ -17,7 +17,7 @@ const mywork = () => {
             <a className="anchor-link" offset={50} href={work.w_link}>
               <img src={work.w_img} alt={`work-${index}`} />
             </a>
-            {/* <p className="mywork-caption">{work.w_name}</p> */}
+            <p className="mywork-caption">{work.w_name}</p>
           </div>
         ))}
       </div>

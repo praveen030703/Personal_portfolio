@@ -1,6 +1,6 @@
 import project1_img from "../assets/MovieReview.png";
 import project2_img from "../assets/project2_img.png";
-// import project3_img from "../assets/project_3.svg";
+import project3_img from "../assets/project3_img.png";
 // import project4_img from "../assets/project_4.svg";
 // import project5_img from "../assets/project_5.svg";
 // import project6_img from "../assets/project_6.svg";
@@ -20,11 +20,12 @@ const mywork_data = [
     w_link:
       "https://1drv.ms/w/c/9545d10bd457567b/EZhqW5UQR8NLg039WDO5RKEBP27rQnN37lVJBkmuEtgYHQ?e=qmSXyi",
   },
-  //   {
-  //     w_no: 3,
-  //     w_name: "Blog Website",
-  //     w_img: project3_img,
-  //   },
+  {
+    w_no: 3,
+    w_name: "Personal Expense Tracker",
+    w_img: project3_img,
+    w_link: "https://github.com/praveen030703?tab=repositories",
+  },
   //   {
   //     w_no: 4,
   //     w_name: "Task Management App",
