@@ -15,7 +15,7 @@ const mywork_data = [
   },
   {
     w_no: 2,
-    w_name: "Quiz App",
+    w_name: "Vehicle Smoke Level Detector",
     w_img: project2_img,
     w_link:
       "https://1drv.ms/w/c/9545d10bd457567b/EZhqW5UQR8NLg039WDO5RKEBP27rQnN37lVJBkmuEtgYHQ?e=qmSXyi",
