@@ -1,6 +1,7 @@
 import project1_img from "../assets/MovieReview.png";
 import project2_img from "../assets/project2_img.png";
 import project3_img from "../assets/project3_img.png";
+import project4_img from "../assets/project4_img.png";
 // import project4_img from "../assets/project_4.svg";
 // import project5_img from "../assets/project_5.svg";
 // import project6_img from "../assets/project_6.svg";
@@ -24,13 +25,14 @@ const mywork_data = [
     w_no: 3,
     w_name: "Personal Expense Tracker",
     w_img: project3_img,
-    w_link: "https://github.com/praveen030703?tab=repositories",
+    w_link: "https://github.com/praveen030703/ExpenseTrack",
   },
-  //   {
-  //     w_no: 4,
-  //     w_name: "Task Management App",
-  //     w_img: project4_img,
-  //   },
+  {
+    w_no: 4,
+    w_name: "Realt-Time Voice to Text",
+    w_img: project4_img,
+    w_link: "https://github.com/praveen030703/SpeechtToText",
+  },
   //   {
   //     w_no: 5,
   //     w_name: "Data Dashboard",
